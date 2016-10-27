@@ -1,0 +1,1073 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  paddig: 0;
+  list-style: none;
+  font-family: Raleway, "Times New Roman", Times, sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: red;
+  background: url(image/cover.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: Raleway, "Times New Roman", Times, sans-serif;
+}
+
+.banner .squale {
+  width: 100%;
+  height: 100%;
+  background: url("image/pattern.png");
+}
+
+.banner .ban {
+  width: 100%;
+  height: 146px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -73px;
+  color: #fff;
+  text-align: center;
+}
+
+.banner .ban .introduce {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.banner .ban .title {
+  width: 427px;
+  margin: 0 auto;
+  font: bold 200% Consolas, Monaco, monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .05em solid;
+  animation: typing 3s steps(15), caret 1s steps(1) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
+.banner .ban .content {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.banner .circle {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  margin-left: -25px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+.banner .circle .downArrow {
+  width: 18px;
+  height: 18px;
+  margin: auto;
+  margin-top: 5px;
+  background: url("image/down.png");
+  animation: down 1s ease infinite both;
+}
+
+@keyframes down {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 25px, 0);
+    opacity: 0;
+  }
+}
+
+.navigation {
+  width: 100%;
+  height: 50px;
+  color: #222;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navigation .navleft {
+  width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.navigation .navleft .logo {
+  float: left;
+  padding: 15px 15px;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: Lobster, cursive;
+  line-height: 20px;
+}
+
+.navigation .navlist {
+  height: 50px;
+  float: right;
+}
+
+.navigation .navlist .list {
+  float: left;
+  padding: 0 15px;
+  font-size: 14px;
+  line-height: 50px;
+}
+
+.about {
+  width: 100%;
+  height: 719px;
+  background: #f5f5f5;
+  padding: 120px 0 100px;
+}
+
+.about .allabout {
+  width: 1170px;
+  height: 700px;
+  margin: 0 auto;
+  color: #222;
+}
+
+.about .allabout .abheader {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  margin-bottom: 37px;
+  text-align: center;
+  color: #222;
+  font-size: 30px;
+}
+
+.about .allabout .row {
+  width: 100px;
+  height: 1px;
+  margin: 0 auto;
+  background: #666;
+}
+
+.about .allabout .aboutme {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.about .allabout .aboutme .say {
+  width: 555px;
+  height: 60px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  color: #666;
+  margin-top: 37px;
+}
+
+.about .allabout .aboutme .pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 40px auto;
+  background: url("image/ziji.jpg");
+}
+
+.about .allabout .aboutme .tell {
+  width: 1170px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.about .allabout .aboutme .tell li {
+  padding: 15px;
+  font-size: 16px;
+  font-family: '苹方';
+  text-align: center;
+}
+
+.exper {
+  width: 100%;
+  height: 1118px;
+  overflow: hidden;
+}
+
+.exper .experbox {
+  width: 555px;
+  height: 161px;
+  margin: 0 auto;
+  margin-top: 129px;
+  margin-bottom: 10px;
+}
+
+.exper .experbox .experHeader {
+  width: 100%;
+  height: 36px;
+  font-size: 30px;
+  margin: 0 0 30px;
+  color: #222;
+  text-align: center;
+}
+
+.exper .experbox .row {
+  background: rgba(135, 135, 135, 0.5);
+  width: 100px;
+  height: 1px;
+  margin: 30px auto;
+}
+
+.exper .experbox .experCon {
+  width: 100%;
+  height: 64px;
+  color: #666;
+  font-size: 18px;
+  text-align: center;
+}
+
+.exper .expbox {
+  width: 1170px;
+  height: 818px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.exper .expbox .bigbox {
+  height: 229px;
+  position: relative;
+}
+
+.exper .expbox .bigbox:hover .expcir {
+  transition: transform ease .5s;
+  transform: scale(1.1, 1.1);
+}
+
+.exper .expbox .bigbox:hover .bag {
+  background: url("image/bag1.png") no-repeat;
+  background-size: cover;
+  transition: transform ease .5s;
+  transform: scale(1.4, 1.4);
+}
+
+.exper .expbox .bigbox .expLeft {
+  width: 585px;
+  height: 229px;
+  float: left;
+}
+
+.exper .expbox .bigbox .expLeft .time {
+  width: 150px;
+  height: 39px;
+  margin-left: 357px;
+  margin-top: 93px;
+  position: relative;
+}
+
+.exper .expbox .bigbox .expLeft .time .timebox {
+  font-size: 1.2em;
+  display: inline-block;
+  color: white;
+  background: darkcyan;
+  padding: 0.6em 1.2em;
+}
+
+.exper .expbox .bigbox .expLeft .time .sanjiao {
+  position: absolute;
+  top: 6px;
+  right: -5px;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent;
+  border-left-color: darkcyan;
+}
+
+.exper .expbox .bigbox .expRight {
+  width: 584px;
+  height: 229px;
+  border-left: 1px solid rgba(135, 135, 135, 0.5);
+  float: left;
+  position: relative;
+}
+
+.exper .expbox .bigbox .expRight .add {
+  width: 200px;
+  height: 51px;
+  color: #666;
+  padding: 0 10px;
+  border: 1px solid rgba(135, 135, 135, 0.5);
+  line-height: 51px;
+  margin: 30px 0 20px 60px;
+}
+
+.exper .expbox .bigbox .expRight .addcon {
+  width: 485px;
+  height: 100px;
+  margin-left: 60px;
+  font-size: 1em;
+  color: #666;
+  line-height: 1.8em;
+}
+
+.exper .expbox .bigbox .expcir {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: darkcyan;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  transition: transform ease .5s;
+  transform: scale(1, 1);
+}
+
+.exper .expbox .bigbox .bag {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  background: url("image/bag.png") no-repeat;
+  background-size: cover;
+  transition: transform ease .5s;
+  transform: scale(1, 1);
+}
+
+.exper .expbox .bigbox-one {
+  height: 229px;
+  position: relative;
+}
+
+.exper .expbox .bigbox-one:hover .expcir {
+  transition: transform ease .5s;
+  transform: scale(1.1, 1.1);
+}
+
+.exper .expbox .bigbox-one:hover .bag {
+  background: url("image/bag1.png") no-repeat;
+  background-size: cover;
+  transition: transform ease .5s;
+  transform: scale(1.4, 1.4);
+}
+
+.exper .expbox .bigbox-one .expLeft {
+  width: 585px;
+  height: 229px;
+  float: left;
+}
+
+.exper .expbox .bigbox-one .expLeft .add {
+  width: 200px;
+  height: 51px;
+  color: #666;
+  padding: 0 10px;
+  border: 1px solid rgba(135, 135, 135, 0.5);
+  line-height: 51px;
+  margin: 30px 0 20px 60px;
+  text-align: center;
+}
+
+.exper .expbox .bigbox-one .expLeft .addcon {
+  width: 485px;
+  height: 100px;
+  margin-left: 41px;
+  font-size: 1em;
+  color: #666;
+  line-height: 1.8em;
+}
+
+.exper .expbox .bigbox-one .expRight {
+  width: 584px;
+  height: 229px;
+  border-left: 1px solid rgba(135, 135, 135, 0.5);
+  float: left;
+  position: relative;
+}
+
+.exper .expbox .bigbox-one .expRight .time {
+  padding: 10px;
+  margin-left: 84px;
+  margin-top: 81px;
+  position: relative;
+}
+
+.exper .expbox .bigbox-one .expRight .time .timebox {
+  font-size: 1.2em;
+  display: inline-block;
+  color: white;
+  background: darkcyan;
+  padding: 0.6em 1.2em;
+}
+
+.exper .expbox .bigbox-one .expRight .time .sanjiao {
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent;
+  border-right-color: darkcyan;
+}
+
+.exper .expbox .bigbox-one .expcir {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: darkcyan;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  transition: transform ease .5s;
+  transform: scale(1, 1);
+}
+
+.exper .expbox .bigbox-one .bag {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  background: url("image/bag.png") no-repeat;
+  background-size: cover;
+  transition: transform ease .5s;
+  transform: scale(1, 1);
+}
+
+.exper .expbox .bigbox-two {
+  height: 229px;
+  position: relative;
+}
+
+.exper .expbox .bigbox-two:hover .expcir {
+  transition: transform ease .5s;
+  transform: scale(1.1, 1.1);
+}
+
+.exper .expbox .bigbox-two:hover .bag {
+  background: url("image/bag1.png") no-repeat;
+  background-size: cover;
+  transition: transform ease .5s;
+  transform: scale(1.4, 1.4);
+}
+
+.exper .expbox .bigbox-two .expLeft {
+  width: 585px;
+  height: 229px;
+  float: left;
+}
+
+.exper .expbox .bigbox-two .expLeft .time {
+  width: 118px;
+  height: 39px;
+  margin-left: 389px;
+  margin-top: 93px;
+  position: relative;
+}
+
+.exper .expbox .bigbox-two .expLeft .time .timebox {
+  font-size: 1.2em;
+  display: inline-block;
+  color: white;
+  background: darkcyan;
+  padding: 0.6em 1.2em;
+}
+
+.exper .expbox .bigbox-two .expLeft .time .sanjiao {
+  position: absolute;
+  top: 6px;
+  right: -5px;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent;
+  border-left-color: darkcyan;
+}
+
+.exper .expbox .bigbox-two .expRight {
+  width: 584px;
+  height: 229px;
+  border-left: 1px solid rgba(135, 135, 135, 0.5);
+  float: left;
+  position: relative;
+}
+
+.exper .expbox .bigbox-two .expRight .add {
+  width: 200px;
+  height: 51px;
+  color: #666;
+  padding: 0 10px;
+  border: 1px solid rgba(135, 135, 135, 0.5);
+  line-height: 51px;
+  margin: 30px 0 20px 60px;
+  text-align: center;
+}
+
+.exper .expbox .bigbox-two .expRight .addcon {
+  width: 485px;
+  height: 100px;
+  margin-left: 60px;
+  font-size: 1em;
+  color: #666;
+  line-height: 1.8em;
+}
+
+.exper .expbox .bigbox-two .expcir {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: darkcyan;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  transition: transform ease .5s;
+  transform: scale(1, 1);
+}
+
+.exper .expbox .bigbox-two .bag {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  background: url("image/bag.png") no-repeat;
+  background-size: cover;
+  transition: transform ease .5s;
+  transform: scale(1, 1);
+}
+
+.skills {
+  width: 100%;
+  height: 685px;
+  margin: 0 auto;
+  background: whitesmoke;
+  padding: 120px 0 100px;
+}
+
+.skills .skillbox {
+  width: 570px;
+  height: 161px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.skills .skillbox .skiTit {
+  width: 100%;
+  height: 36px;
+  font-size: 30px;
+  margin: 0 0 30px;
+  color: #222;
+  text-align: center;
+}
+
+.skills .skillbox .skiRow {
+  background: rgba(135, 135, 135, 0.5);
+  width: 100px;
+  height: 1px;
+  margin: 30px auto;
+}
+
+.skills .skillbox .skiCon {
+  width: 100%;
+  height: 64px;
+  color: #666;
+  font-size: 18px;
+  text-align: center;
+}
+
+.skills .penbox {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.skills .penbox .pen {
+  width: 25%;
+  height: 260px;
+  float: left;
+}
+
+.skills .penbox .pen .circle {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+.skills .penbox .pen .penbot {
+  width: 100%;
+  height: 16px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 53px;
+  color: #222;
+}
+
+.work {
+  width: 100%;
+  height: 1159px;
+  overflow: hidden;
+}
+
+.work .workbox {
+  width: 555px;
+  height: 161px;
+  margin: 0 auto;
+  margin-top: 129px;
+}
+
+.work .workbox .workhead {
+  width: 100%;
+  height: 36px;
+  font-size: 30px;
+  margin: 0 0 30px;
+  color: #222;
+  text-align: center;
+}
+
+.work .workbox .row {
+  background: rgba(135, 135, 135, 0.5);
+  width: 100px;
+  height: 1px;
+  margin: 30px auto;
+}
+
+.work .workbox .workcont {
+  width: 100%;
+  height: 64px;
+  color: #666;
+  font-size: 18px;
+  text-align: center;
+}
+
+.work .workshow {
+  width: 1170px;
+  height: 618px;
+  margin: 0 auto;
+}
+
+.work .workshow .showbox {
+  width: 360px;
+  height: 225px;
+  margin: 15px;
+  float: left;
+  position: relative;
+}
+
+.work .workshow .showbox .showlist {
+  width: 360px;
+  height: 225px;
+}
+
+.work .workshow .showbox .showlist img {
+  width: 360px;
+  height: 225px;
+}
+
+.work .workshow .showbox .mask {
+  width: 360px;
+  height: 225px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: background ease .3s;
+}
+
+.work .workshow .showbox .mask:hover {
+  transition: background ease .3s;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.work .workshow .showbox .mask:hover .showheader {
+  transition: transform ease .3s;
+  transform: translate3d(0, 20px, 0);
+}
+
+.work .workshow .showbox .mask:hover .showfoot {
+  opacity: 1;
+  transition: transform ease .3s ,opacity ease .3s;
+  transform: translate3d(0, -20px, 0);
+}
+
+.work .workshow .showbox .mask:hover .coverTop {
+  transition: transform ease .3s;
+  transform: scale(1, 1);
+}
+
+.work .workshow .showbox .mask:hover .coverLeft {
+  transition: transform ease .3s;
+  transform: scale(1, 1);
+}
+
+.work .workshow .showbox .mask:hover .coverBottom {
+  transition: transform ease .3s;
+  transform: scale(1, 1);
+}
+
+.work .workshow .showbox .mask:hover .coverRight {
+  transition: transform ease .3s;
+  transform: scale(1, 1);
+}
+
+.work .workshow .showbox .mask .coverTop {
+  width: 300px;
+  height: 1px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  background: #fff;
+  transition: transform ease .3s;
+  transform: scale(0, 0);
+}
+
+.work .workshow .showbox .mask .coverBottom {
+  width: 300px;
+  height: 1px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background: #fff;
+  transition: transform ease .3s;
+  transform: scale(0, 0);
+}
+
+.work .workshow .showbox .mask .coverLeft {
+  width: 1px;
+  height: 165px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background: #fff;
+  transition: transform ease .3s;
+  transform: scale(0, 0);
+}
+
+.work .workshow .showbox .mask .coverRight {
+  width: 1px;
+  height: 165px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  background: #fff;
+  transition: transform ease .3s;
+  transform: scale(0, 0);
+}
+
+.work .workshow .showbox .mask .showheader {
+  width: 290px;
+  height: 53px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  transition: transform ease .3s;
+  transform: translate3d(0, 0, 0);
+}
+
+.work .workshow .showbox .mask .showfoot {
+  width: 290px;
+  height: 82px;
+  margin: 0 auto;
+  margin-top: 35px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  transition: transform ease .3s ,opacity ease .3s;
+  transform: translate3d(0, 0, 0);
+  opacity: 0;
+  font-family: '微软雅黑';
+}
+
+.call {
+  width: 100%;
+  height: 262px;
+  background: url("image/call.jpg");
+  background-size: cover;
+  margin-bottom: 129px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.call .callheader {
+  width: 1140px;
+  height: 24px;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 43px;
+  margin-bottom: 28px;
+}
+
+.call .callcon {
+  width: 1140px;
+  height: 70px;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.call a {
+  text-decoration: none;
+  color: #111;
+}
+
+.call .callbtn {
+  width: 102px;
+  height: 37px;
+  border-radius: 3px;
+  line-height: 37px;
+  font-size: 13px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.call .callbtn:hover {
+  background: white;
+}
+
+.contact {
+  width: 100%;
+  height: 662px;
+}
+
+.contact .contactBox {
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.contact .contactBox .conHeader {
+  width: 555px;
+  height: 36px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 37px;
+}
+
+.contact .contactBox .row {
+  width: 100px;
+  height: 1px;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(135, 135, 135, 0.5);
+  margin-bottom: 37px;
+}
+
+.contact .contactBox .conword {
+  width: 555px;
+  height: 64px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 43px;
+}
+
+.contact .contactBox .name {
+  display: block;
+  width: 525px;
+  height: 34px;
+  outline: none;
+  margin: 0 auto;
+  border: 1px solid #D8E1E4;
+  font-size: 12px;
+  padding: 0 15px;
+  margin-bottom: 17px;
+  border-radius: 3px;
+}
+
+.contact .contactBox .email {
+  display: block;
+  width: 525px;
+  height: 34px;
+  outline: none;
+  margin: 0 auto;
+  border: 1px solid #D8E1E4;
+  font-size: 12px;
+  padding: 0 15px;
+  margin-bottom: 17px;
+  border-radius: 3px;
+}
+
+.contact .contactBox .message {
+  display: block;
+  width: 525px;
+  height: auto;
+  outline: none;
+  margin: 0 auto;
+  border: 1px solid #D8E1E4;
+  font-size: 12px;
+  padding: 15px;
+  margin-bottom: 17px;
+  border-radius: 3px;
+}
+
+.contact .contactBox .send {
+  width: 555px;
+  height: 37px;
+  margin: 0 auto;
+  font-size: 13px;
+  border-radius: 3px;
+  text-align: center;
+  background: rgba(17, 17, 17, 0.8);
+  color: #fff;
+  line-height: 37px;
+}
+
+.contact .contactBox .send:hover {
+  background: #111111;
+}
+
+.footer {
+  width: 100%;
+  height: 133px;
+  background: #222;
+  text-align: center;
+  padding: 40px 0;
+  color: #FFF;
+  font-family: Raleway;
+}
+
+.footer .footHead {
+  width: 240px;
+  height: 46px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.footer .footHead .qq {
+  width: 40px;
+  height: 40px;
+  float: left;
+  background: url("image/QQ.png");
+  background-size: cover;
+  margin: 0 10px;
+  margin-left: 43px;
+  margin-top: 3px;
+}
+
+.footer .footHead .qq:hover {
+  background: url("image/QQ1.png");
+  background-size: cover;
+}
+
+.footer .footHead .weixin {
+  width: 38px;
+  height: 38px;
+  float: left;
+  margin: 0 10px;
+  margin-top: 4px;
+  background: url("image/weixin1.png");
+  background-size: cover;
+}
+
+.footer .footHead .weixin:hover {
+  background: url("image/weixin.png");
+  background-size: cover;
+}
+
+.footer .footHead .weibo {
+  width: 38px;
+  height: 38px;
+  float: left;
+  margin: 0 10px;
+  margin-top: 4px;
+  background: url("image/weibo.png");
+  background-size: cover;
+}
+
+.footer .footHead .weibo:hover {
+  background: url("image/weibo1.png");
+  background-size: cover;
+}
+
+.footer .fotcon {
+  width: 1140px;
+  height: 32px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.footer .fotcon .leftcon {
+  width: 150px;
+  height: 100%;
+  font-size: 14px;
+  color: #fff;
+  float: left;
+  line-height: 32px;
+  margin-left: 408px;
+}
+
+.footer .fotcon .midcon {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 0 3px;
+  background: url("image/xin.png");
+  background-size: cover;
+  animation: xin 1s ease .3s infinite both;
+}
+
+@keyframes xin {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+.footer .fotcon .rightcon {
+  width: 170px;
+  height: 32px;
+  font-size: 14px;
+  color: #fff;
+  float: left;
+  line-height: 32px;
+}
+
+.footer .made {
+  width: 1140px;
+  height: 25px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #fff;
+  line-height: 25px;
+  text-align: center;
+}
